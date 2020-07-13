@@ -3,7 +3,6 @@ import requests
 import random
 from random import shuffle
 
-available_lists = ['latest', 'top_rated', 'upcoming', 'popular', 'now_playing']
 
 def get_popular_movies():
     endpoint = "https://api.themoviedb.org/3/movie/popular"
